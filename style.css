@@ -1,0 +1,38 @@
+.rightpersonal {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+a { 
+  position: relative; 
+  display: inline-block;
+}
+
+a img {
+  width:150px;
+}
+
+a p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  background: grey;
+  color: #fff;
+  opacity:0;
+  transition:1s;
+}
+a p:hover {
+  opacity:1;
+}
+#recipe-area {
+  height: 45em;
+  width: 45em;
+}
